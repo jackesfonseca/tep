@@ -9,7 +9,8 @@ void solve(int A, int B, int C)
 
     delta = (B*B) - 4*A*C;
 
-    X = ((- B) + sqrt(delta)) / (2*A);
+    X1 = ((- B) + sqrt(delta)) / (2*A);
+    X2 = ((- B) - sqrt(delta)) / (2*A);
 }
 
 int main()
